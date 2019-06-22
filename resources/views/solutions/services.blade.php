@@ -18,14 +18,12 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-folder-outline icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Services</span></h2>
+              <h2><span class="big">Solutions</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li>Services
-                </li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/solutions">Solutions</a></li>
               </ul>
             </div>
           </div>
@@ -52,9 +50,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-cellphone-link"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Fully Responsive Design</h4>
+                          <h4 class="text-bold offset-top-20">Automation</h4>
                           <p>
-                            Intense looks perfect on any modern device, be it a laptop, a smartphone, or a tablet.
+                            Intense looks perfect on any modern device, be it a laptop, a smartphone, or a tablet.<a href="/solutions/automation">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -62,9 +60,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-chart-line"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Social Integration</h4>
+                          <h4 class="text-bold offset-top-20">Entertainment</h4>
                           <p>
-                            Intense is integrated with such popular social networks as Facebook, Twitter, Instagram and Flickr.
+                            Intense is integrated with such popular social networks as Facebook, Twitter, Instagram and Flickr.<a href="/solutions/entertainment">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -72,9 +70,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-pen"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">150+ Predesigned Pages</h4>
+                          <h4 class="text-bold offset-top-20">Lightning</h4>
                           <p>
-                            Intense is a paradise for developers. Its initial release version comes shipped with 150+ responsive pages for any taste.
+                            Intense is a paradise for developers. Its initial release version comes shipped with 150+ responsive pages for any taste.<a href="/solutions/lightning">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -83,9 +81,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-timetable"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Regular Content Updates</h4>
+                          <h4 class="text-bold offset-top-20">Security</h4>
                           <p>
-                            New child themes, skins and predesigned pages are being released 2-3 times per month. Intense owners get them for free.
+                            New child themes, skins and predesigned pages are being released 2-3 times per month. Intense owners get them for free.<a href="/solutions/security">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -93,9 +91,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-verified"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Lots of Child Themes</h4>
+                          <h4 class="text-bold offset-top-20">Sensors</h4>
                           <p>
-                            A variety of niche-specific designs, which expand the possibilities of this template.
+                            A variety of niche-specific designs, which expand the possibilities of this template.<a href="/solutions/sensors">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -103,12 +101,24 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-video"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">200+ PSD Files</h4>
+                          <h4 class="text-bold offset-top-20">Electronics</h4>
                           <p>
-                            An impressive UI kit comprising 200+ layered PSD source files will be a useful addition to every designer’s toolbox.
+                            An impressive UI kit comprising 200+ layered PSD source files will be a useful addition to every designer’s toolbox.<a href="/solutions/electronics">>>もっと読む</a>
                             
                           </p>
                         </div>
+              </div>
+              <div class="range-spacer veil reveal-md-inline-block offset-top-41 offset-md-top-66"></div>
+              <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
+                        <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-video"></span>
+                        <div>
+                          <h4 class="text-bold offset-top-20">Networking</h4>
+                          <p>
+                            An impressive UI kit comprising 200+ layered PSD source files will be a useful addition to every designer’s toolbox.<a href="/solutions/networking">>>もっと読む</a>
+                            
+                          </p>
+                        </div>
+              </div>
               </div>
             </div>
             <hr class="bg-lightest offset-top-66">

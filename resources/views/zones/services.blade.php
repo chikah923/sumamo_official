@@ -22,10 +22,8 @@
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li>Services
-                </li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/zones">Zones</a></li>
               </ul>
             </div>
           </div>
@@ -52,9 +50,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-cellphone-link"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Fully Responsive Design</h4>
+                          <h4 class="text-bold offset-top-20">Residential</h4>
                           <p>
-                            Intense looks perfect on any modern device, be it a laptop, a smartphone, or a tablet.
+                            Intense looks perfect on any modern device, be it a laptop, a smartphone, or a tablet.<a href="/zones/residential">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -62,9 +60,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-chart-line"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Social Integration</h4>
+                          <h4 class="text-bold offset-top-20">Corporate</h4>
                           <p>
-                            Intense is integrated with such popular social networks as Facebook, Twitter, Instagram and Flickr.
+                            Intense is integrated with such popular social networks as Facebook, Twitter, Instagram and Flickr.<a href="/zones/corporate">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -72,9 +70,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-pen"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">150+ Predesigned Pages</h4>
+                          <h4 class="text-bold offset-top-20">Hospitality</h4>
                           <p>
-                            Intense is a paradise for developers. Its initial release version comes shipped with 150+ responsive pages for any taste.
+                            Intense is a paradise for developers. Its initial release version comes shipped with 150+ responsive pages for any taste.<a href="/zones/hospitality">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -83,9 +81,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-timetable"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Regular Content Updates</h4>
+                          <h4 class="text-bold offset-top-20">Commercial</h4>
                           <p>
-                            New child themes, skins and predesigned pages are being released 2-3 times per month. Intense owners get them for free.
+                            New child themes, skins and predesigned pages are being released 2-3 times per month. Intense owners get them for free.<a href="/zones/commercial">>>もっと読む</a>
                             
                           </p>
                         </div>
@@ -93,19 +91,9 @@
               <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
                         <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-verified"></span>
                         <div>
-                          <h4 class="text-bold offset-top-20">Lots of Child Themes</h4>
+                          <h4 class="text-bold offset-top-20">Education</h4>
                           <p>
-                            A variety of niche-specific designs, which expand the possibilities of this template.
-                            
-                          </p>
-                        </div>
-              </div>
-              <div class="cell-sm-8 cell-sm-preffix-2 cell-md-4 cell-md-preffix-0 offset-top-66 offset-md-top-0">
-                        <!-- Icon Box Type 4--><span class="icon icon-circle icon-bordered icon-lg icon-default icon-filled mdi mdi-video"></span>
-                        <div>
-                          <h4 class="text-bold offset-top-20">200+ PSD Files</h4>
-                          <p>
-                            An impressive UI kit comprising 200+ layered PSD source files will be a useful addition to every designer’s toolbox.
+                            A variety of niche-specific designs, which expand the possibilities of this template.<a href="/zones/education">>>もっと読む</a>
                             
                           </p>
                         </div>

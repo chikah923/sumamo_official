@@ -17,13 +17,13 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="icon-lg mdi mdi-account-multiple icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">About Us</span></h2>
+              <h2><span class="big">Why Us</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
                 <li><a href="/">Home</a></li>
                 <li><a href="/company">Company</a></li>
-                <li>About Us
+                <li>Why Us
                 </li>
               </ul>
             </div>
@@ -47,7 +47,7 @@
             <div class="range range-xs-center">
               <div class="cell-xs-10 cell-lg-6 cell-lg-push-2"><img class="img-responsive reveal-inline-block offset-top-10" src="{{ asset('/images/pages/careers-01-960x540.jpg') }}" width="960" height="540" alt=""></div>
               <div class="cell-xs-10 cell-lg-6 text-md-left inset-md-right-80 cell-lg-push-1 offset-top-50 offset-lg-top-0">
-                <h1>About Us</h1>
+                <h1>Why Sumamo?</h1>
                 <hr class="divider hr-lg-left-0 bg-mantis">
                 <div class="offset-top-30 offset-md-top-50">
                   <p>Intense is an independent web design studio with a rich history. It started as a small family-owned business in Oakville, and has grown enough to successfully occupy two large buildings in two different cities.</p>

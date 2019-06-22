@@ -48,11 +48,11 @@
                   <div class="reveal-block">
                     <div class="reveal-inline-block">
                       <ul class="list list-marked">
-                        <li><a href="/company/about_us">About Us</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/legal">Legal</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
                         <li><a href="/company/contact_us">Contact Us</a></li>
-                        <li><a href="/company/visit_us">Visit Us</a></li>
-                        <li><a href="/plans">Plans</a></li>
-                        <li><a href="/services/training_and_skills">Training&Skills</a></li>
                       </ul>
                     </div>
                   </div>
@@ -88,7 +88,7 @@
           </div>
         </div>
         <div class="shell offset-top-50">
-          <p class="small text-darker">Intense &copy; <span class="copyright-year"></span> . <a href="/privacy_policy">Privacy Policy</a></p>
+          <p class="small text-darker">SUMAMO &copy; <span class="copyright-year"></span> . <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_of_use">Terms Of Use</a></p>
         </div>
 　  </footer>
 </div>

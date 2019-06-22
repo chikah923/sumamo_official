@@ -17,13 +17,13 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-cube-outline icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Content boxes</span></h2>
+              <h2><span class="big">{{ $service_category }}</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li>Content boxes
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li>{{ $service_category }}
                 </li>
               </ul>
             </div>
@@ -61,7 +61,7 @@
                 </div>
               </div>
               <div class="cell-sm-8 cell-md-4 text-sm-left offset-top-34 offset-md-top-0">
-                <h3>Website Design</h3>
+                <h3>{{ $service_category }}</h3>
                 <p>A website is a medium that connects a person with the world of digital data. With its help users can access information, make purchases, communicate with each other, and do loads of other things.</p>
                 <div class="offset-top-20">
                   <p>Due to the clever marketing strategy and professional web designing, corporations can grow their client base with ease. On the modern market the competition is very tough, so in order to be a success, businesses experiment with multiple strategies with the goal of coming up with the perfect one.</p>

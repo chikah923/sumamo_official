@@ -17,13 +17,13 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-map-marker-circle icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Get In Touch</span></h2>
+              <h2><span class="big">Contact Us</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li>Get In Touch
+                <li><a href="/">Home</a></li>
+                <li><a href="/company">Company</a></li>
+                <li>Contact Us
                 </li>
               </ul>
             </div>
@@ -48,25 +48,27 @@
               <div class="cell-sm-9 cell-md-8 cell-lg-12">
                 <div class="range">
                   <div class="cell-lg-8">
-                    <h1 class="text-between">Get In Touch</h1>
+                    <h1 class="text-between">Contact Us</h1>
                     <hr class="divider bg-mantis">
                     <div class="text-left offset-top-30">
                       <p>You can contact us any way that is convenient for you. We are available 24/7 via fax or email. You can also use a quick contact form on the right or visit our office personally.</p>
                       <p>Email us with any questions or inquiries or use our contact data. We would be happy to answer your questions.</p>
                     </div>
-                    <!-- RD Mailform-->
-                    <form class="rd-mailform text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                    <!-- RD Mailform  何かわからないので使わないのもあり-->
+                    <form class="rd-mailform text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="{{ asset('/bat/rd-mailform.php') }}">
+                    <!-- <form class="text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="/company/contact_us/send"> -->
+                    {{ csrf_field() }}
                       <div class="range">
                         <div class="cell-lg-6">
                           <div class="form-group">
                             <label class="form-label form-label-outside" for="contacts-first-name">First Name</label>
-                            <input class="form-control" id="contacts-first-name" type="text" name="name" data-constraints="@Required">
+                            <input class="form-control" id="contacts-first-name" type="text" name="first_name" data-constraints="@Required">
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
                           <div class="form-group">
                             <label class="form-label form-label-outside" for="contacts-second-name">Second Name</label>
-                            <input class="form-control" id="contacts-second-name" type="text" name="name" data-constraints="@Required">
+                            <input class="form-control" id="contacts-second-name" type="text" name="last_name" data-constraints="@Required">
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20">
@@ -78,7 +80,7 @@
                         <div class="cell-lg-6 offset-top-20">
                           <div class="form-group">
                             <label class="form-label form-label-outside" for="contacts-phone">Phone</label>
-                            <input class="form-control" id="contacts-phone" type="text" name="name" data-constraints="@Required">
+                            <input class="form-control" id="contacts-phone" type="text" name="phone" data-constraints="@Required">
                           </div>
                         </div>
                         <div class="cell-lg-12 offset-top-20">

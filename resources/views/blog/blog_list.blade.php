@@ -16,15 +16,12 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-arrange-send-to-back icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Blog Default</span></h2>
+              <h2><span class="big">Blog</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog-default-left-sidebar.html">Blog</a></li>
-                <li><a href="#">Blog Default</a></li>
-                <li>Both Sidebar
-                </li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
               </ul>
             </div>
           </div>

@@ -16,13 +16,13 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="icon-lg mdi mdi-certificate icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Pricing</span></h2>
+              <h2><span class="big">{{ $plan_category }}</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li>Pricing
+                <li><a href="/">Home</a></li>
+                <li><a href="/plans">Plans</a></li>
+                <li>{{ $plan_category }}
                 </li>
               </ul>
             </div>
@@ -43,7 +43,7 @@
         <!-- Choose your Plan-->
         <section class="section-98 section-sm-110">
           <div class="shell-fluid">
-            <h1>Choose your Plan</h1>
+            <h1>{{ $plan_category }}</h1>
             <hr class="divider bg-mantis">
             <p>Pick the best plan that meets your business needs. A free trial is available to help you with the decision-making.</p><a class="btn btn-primary btn-icon btn-icon-left offset-top-20" href="#"><span class="icon mdi mdi-download text-middle"></span>Download free Trial</a>
             <div class="range range-condensed range-md-center offset-top-66">

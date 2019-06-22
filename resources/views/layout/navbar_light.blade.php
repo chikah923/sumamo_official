@@ -99,7 +99,7 @@
                           </li>
                         </ul>
                       </li>
-                      <li><a href="/shop"><span>STORE</span></a>
+                      <li><a href="/shop"><span>SHOP</span></a>
                       </li>
                       <li><a href="/blog"><span>BLOG</span></a>
                       </li>

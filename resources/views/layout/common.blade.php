@@ -16,6 +16,7 @@
       @yield('footer')
     <!-- JavaScript-->
     <script src="{{ asset('/js/core.min.js') }}"></script>
+    <!-- <script src="{{ asset('/js/easyResponsiveTabs.js') }}"></script> -->
     <script src="{{ asset('/js/script.js') }}"></script>
   </body>
 </html>
