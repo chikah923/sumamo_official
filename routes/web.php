@@ -83,6 +83,6 @@ Route::get('/legal', function () { return view('others/legal');});
 Route::get('/careers', function () { return view('others/careers');});
 Route::get('/gallery', function () { return view('others/gallery');});
 
-
 // 機能
 Route::post('/company/contact_us/send', 'ContactUsController@sendContactUs');
+Route::get('/sample/mailable/preview', function () {return new App\Mail\AutoNotification();});

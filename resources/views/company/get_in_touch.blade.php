@@ -55,40 +55,43 @@
                       <p>Email us with any questions or inquiries or use our contact data. We would be happy to answer your questions.</p>
                     </div>
                     <!-- RD Mailform  何かわからないので使わないのもあり-->
-                    <form class="rd-mailform text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="{{ asset('/bat/rd-mailform.php') }}">
-                    <!-- <form class="text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="/company/contact_us/send"> -->
+                    <!-- <form class="rd-mailform text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="{{ asset('/bat/rd-mailform.php') }}"> -->
+                    <form class="text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="/company/contact_us/send">
                     {{ csrf_field() }}
                       <div class="range">
                         <div class="cell-lg-6">
-                          <div class="form-group">
-                            <label class="form-label form-label-outside" for="contacts-first-name">First Name</label>
-                            <input class="form-control" id="contacts-first-name" type="text" name="first_name" data-constraints="@Required">
+                        <div class="form-group">
+                          <label class="form-label form-label-outside" for="contacts-second-name">姓</label>
+                            <input class="form-control" id="contacts-second-name" type="text" name="last_name" required>
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
-                          <div class="form-group">
-                            <label class="form-label form-label-outside" for="contacts-second-name">Second Name</label>
-                            <input class="form-control" id="contacts-second-name" type="text" name="last_name" data-constraints="@Required">
+                        <div class="form-group">
+                          <label class="form-label form-label-outside" for="contacts-first-name">名</label>
+                            <input class="form-control" id="contacts-first-name" type="text" name="first_name" required>
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20">
                           <div class="form-group">
                             <label class="form-label form-label-outside" for="contacts-email">E-mail</label>
-                            <input class="form-control" id="contacts-email" type="email" name="email" data-constraints="@Required @Email">
+                            <input class="form-control" id="contacts-email" type="email" name="email" required>
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20">
                           <div class="form-group">
-                            <label class="form-label form-label-outside" for="contacts-phone">Phone</label>
-                            <input class="form-control" id="contacts-phone" type="text" name="phone" data-constraints="@Required">
+                            <label class="form-label form-label-outside" for="contacts-phone">電話番号(例:090-1234-5678)</label>
+                            <input class="form-control" id="contacts-phone" type="tel" name="phone" pattern="^\d{11}$|^\d{2,4}-\d{3,4}-\d{4}$"/ required>
                           </div>
                         </div>
                         <div class="cell-lg-12 offset-top-20">
                           <div class="form-group">
-                            <label class="form-label form-label-outside" for="contact-me-message">Message</label>
-                            <textarea class="form-control" id="contact-me-message" name="message" data-constraints="@Required" style="height: 160px;"></textarea>
-                          </div>
+                            <label class="form-label form-label-outside" for="contact-me-message">お問い合わせ内容</label>
+                            <textarea class="form-control" id="contact-me-message" name="message" required style="height: 160px;"></textarea>
+                          </div> 
                         </div>
+                        <div class="cell-lg-12 offset-top-20">
+                            <input type="checkbox" name="subscription" value="1" checked="checked"><span style="font-size:13px;">SUMAMOのニュースレターを受け取る</span>
+                        </div> 
                       </div>
                       <div class="range range-xs-center range-lg-left offset-top-30">
                         <div class="cell-xs-5 cell-sm-4 cell-lg-3">
