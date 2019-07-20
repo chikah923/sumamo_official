@@ -56,48 +56,52 @@
                     </div>
                     <!-- RD Mailform  確認画面の実装がないので使わない-->
                     <!-- <form class="rd-mailform text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="{{ asset('/bat/rd-mailform.php') }}"> -->
-                    <form class="text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="/company/contact_us/confirm">
-                    {{ csrf_field() }}
-                      <div class="range">
+                    <form class="text-left offset-top-50" data-form-output="form-output-global" data-form-type="contact" method="post" action="/company/contact_us/send">
+                     <div class="range">
                         <div class="cell-lg-6">
                         <div class="form-group">
-                          <label class="form-label form-label-outside" for="contacts-second-name">姓</label>
-                            <input class="form-control" id="contacts-second-name" type="text" name="last_name" value="{{ old('last_name') }}"required>
+                          <label class="form-label form-label-outside" for="contacts-second-name">姓</label><br>
+                          <p>{{ $input['last_name'] }}</p>
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
                         <div class="form-group">
-                          <label class="form-label form-label-outside" for="contacts-first-name">名</label>
-                            <input class="form-control" id="contacts-first-name" type="text" name="first_name" value="{{ old('first_name') }}"required>
+                          <label class="form-label form-label-outside" for="contacts-first-name">名</label><br>
+                          <p>{{ $input['first_name'] }}</p>
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20">
                           <div class="form-group">
-                            <label class="form-label form-label-outside" for="contacts-email">E-mail</label>
-                            <input class="form-control" id="contacts-email" type="email" name="email" value="{{ old('email') }}"required>
+                            <label class="form-label form-label-outside" for="contacts-email">E-mail</label><br>
+                            <p>{{ $input['email'] }}</p>
                           </div>
                         </div>
                         <div class="cell-lg-6 offset-top-20">
                           <div class="form-group">
-                            <label class="form-label form-label-outside" for="contacts-phone">電話番号(例:090-1234-5678)</label>
-                            <input class="form-control" id="contacts-phone" type="tel" name="phone" pattern="^\d{11}$|^\d{2,4}-\d{3,4}-\d{4}$"/ value="{{ old('phone') }}" required>
+                            <label class="form-label form-label-outside" for="contacts-phone">電話番号(例:090-1234-5678)</label><br>
+                            <p>{{ $input['phone'] }}</p>
                           </div>
                         </div>
                         <div class="cell-lg-12 offset-top-20">
                           <div class="form-group">
-                            <label class="form-label form-label-outside" for="contact-me-message">お問い合わせ内容</label>
-                            <textarea class="form-control" id="contact-me-message" name="message" required style="height: 160px;">{{ old('message') }}</textarea>
-                          </div> 
+                            <label class="form-label form-label-outside" for="contact-me-message">お問い合わせ内容</label><br>
+                            <p>{{ $input['message'] }}</p>
+                          </div>
                         </div>
                         <div class="cell-lg-12 offset-top-20">
-                            <input type="hidden" name="subscription" value="0">
-                            <input type="checkbox" name="subscription" value="1" checked="checked"><span style="font-size:13px;">SUMAMOのニュースレターを受け取る</span>
-                        </div>
+                        @if ($input['subscription'] == "on")
+                        <p>SUMAMOのニュースレターを受け取る</p>
+                        @else
+                        <p>SUMAMOのニュースレターを受け取らない</p>
+                        @endif
+                        </div> 
                       </div>
                       <div class="range range-xs-center range-lg-left offset-top-30">
                         <div class="cell-xs-5 cell-sm-4 cell-lg-3">
-                          <div class="inset-left-50 inset-right-50 inset-xs-left-0 inset-xs-right-0 inset-lg-right-50">
-                            <button class="btn btn-block btn-primary" type="submit">確認画面へ</button>
+                          <div class="inset-left-50 inset-right-50 inset-xs-left-0 inset-xs-right-0 inset-lg-right-50" style="display: flex;">
+                          {{ csrf_field() }}
+                            <input type="submit" class="btn btn-block btn-primary" name="action" value="戻る" style="margin-top: 5px; backgroud-color: #CC3366;">
+                            <input type="submit" class="btn btn-block btn-primary" name="action" value="送信する" style="margin-left: 20%">
                           </div>
                         </div>
                       </div>

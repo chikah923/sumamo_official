@@ -84,5 +84,6 @@ Route::get('/careers', function () { return view('others/careers');});
 Route::get('/gallery', function () { return view('others/gallery');});
 
 // 機能
-Route::post('/company/contact_us/send', 'ContactUsController@sendContactUs');
+Route::post('/company/contact_us/confirm', 'ContactUsController@confirm');
+Route::post('/company/contact_us/send', 'ContactUsController@send');
 Route::get('/sample/mailable/preview', function () {return new App\Mail\AutoNotification();});
