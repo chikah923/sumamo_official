@@ -8,20 +8,20 @@ class PlansController extends Controller
     {   
         switch ($plan_category) {
             case "basic":
-                $output = "basic";
-                return view('plans.pricing')->with('plan_category',$output); 
+                $output = "ベーシック";
+                return view('plans.basic')->with('plan_category',$output); 
             case "lite":
-                $output = "lite";
-                return view('plans.pricing')->with('plan_category',$output); 
+                $output = "ライト";
+                return view('plans.lite')->with('plan_category',$output); 
             case "standard":
-                $output = "stardard";
-                return view('plans.pricing')->with('plan_category',$output); 
+                $output = "スタンダード";
+                return view('plans.standard')->with('plan_category',$output); 
             case "advanced":
-                $output = "advanced";
-                return view('plans.pricing')->with('plan_category',$output);
+                $output = "アドバンス";
+                return view('plans.advanced')->with('plan_category',$output);
             case "elite":
-                $output = "elite";
-                return view('plans.pricing')->with('plan_category',$output);                    
+                $output = "エリート";
+                return view('plans.elite')->with('plan_category',$output);                    
         }
     }    
 }

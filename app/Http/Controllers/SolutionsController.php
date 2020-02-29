@@ -7,27 +7,24 @@ class SolutionsController extends Controller
     public function getPage($solution_category)
     {   
         switch ($solution_category) {
-            case "automation":
-                $output = "automation";
-                return view('solutions.content_boxes')->with('solution_category',$output); 
-            case "entertainment":
-                $output = "entertainment";
-                return view('solutions.content_boxes')->with('solution_category',$output); 
-            case "lightning":
-                $output = "lightning";
-                return view('solutions.content_boxes')->with('solution_category',$output); 
-            case "security":
-                $output = "security";
-                return view('solutions.content_boxes')->with('solution_category',$output);
             case "sensors":
-                $output = "sensors";
-                return view('solutions.content_boxes')->with('solution_category',$output);
-            case "electronics":
-                $output = "electronics";
-                return view('solutions.content_boxes')->with('solution_category',$output);
+                $output = "センサー";
+                return view('solutions.sensor')->with('solution_category',$output);
+            case "lightning":
+                $output = "照明";
+                return view('solutions.lightning')->with('solution_category',$output);
+            case "automation":
+                $output = "オートメーション";
+                return view('solutions.automation')->with('solution_category',$output);
+            case "security":
+                $output = "セキュリティ";
+                return view('solutions.security')->with('solution_category',$output);
             case "networking":
-                $output = "networking";
-                return view('solutions.content_boxes')->with('solution_category',$output);                 
+                $output = "ネットワーク";
+                return view('solutions.network')->with('solution_category',$output);
+            case "entertainment":
+                $output = "エンターテイメント";
+                return view('solutions.entertainment')->with('solution_category',$output);             
         }
     }    
 }

@@ -27,81 +27,79 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li><a href="/"><span>HOME</span></a>
+                      <li><a href="/"><span>ホーム</span></a>
                       </li>
-                      <li><a href="/company"><span>COMPANY</span></a>
+                      <li><a href="#"><span>企業概要</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="/company/about_us"><span class="text-middle">About Us</span></a>
+                          <li><a href="/company/about_us"><span class="text-middle">SUMAMOについて</span></a>
                           </li>
-                          <li><a href="/company/why_us"><span class="text-middle">Why Us</span></a>
+                          <li><a href="/company/why_us"><span class="text-middle">企業情報</span></a>
                           </li>
-                          <li><a href="/company/contact_us"><span class="text-middle">Contact Us</span></a>
+                          <li><a href="/company/contact_us"><span class="text-middle">お問い合わせ・施設見学</span></a>
                           </li>
                           <li><a href="/company/visit_us"><span class="text-middle">Visit Us</span></a>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="/zones"><span>ZONES</span></a>
+                      <li><a href="/zones"><span>ゾーン</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="/zones/residential"><span class="text-middle">Residential</span></a>
+                          <li><a href="/zones/residential"><span class="text-middle">住宅</span></a>
                           </li>
-                          <li><a href="/zones/corporate"><span class="text-middle">Corperate</span></a>
+                          <li><a href="/zones/corporate"><span class="text-middle">会社</span></a>
                           </li>
-                          <li><a href="/zones/hospitality"><span class="text-middle">Hospitality</span></a>
+                          <li><a href="/zones/hospitality"><span class="text-middle">ホテル</span></a>
                           </li>
-                          <li><a href="/zones/commercial"><span class="text-middle">Commercial</span></a>
+                          <li><a href="/zones/commercial"><span class="text-middle">商業施設</span></a>
                           </li>
-                          <li><a href="/zones/education"><span class="text-middle">Education</span></a>
+                          <li><a href="/zones/education"><span class="text-middle">教育施設</span></a>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="/solutions"><span>Solutions</span></a>
+                      <li><a href="/solutions"><span>ソリューション</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="/solutions/automation"><span class="text-middle">Automation</span></a>
+                          <li><a href="/solutions/sensors"><span class="text-middle">センサー</span></a>
                           </li>
-                          <li><a href="/solutions/entertainment"><span class="text-middle">Entertainment</span></a>
+                          <li><a href="/solutions/lightning"><span class="text-middle">照明</span></a>
                           </li>
-                          <li><a href="/solutions/lightning"><span class="text-middle">Lightning</span></a>
+                          <li><a href="/solutions/automation"><span class="text-middle">オートメーション</span></a>
                           </li>
-                          <li><a href="/solutions/security"><span class="text-middle">Security</span></a>
+                          <li><a href="/solutions/security"><span class="text-middle">セキュリティ</span></a>
                           </li>
-                          <li><a href="/solutions/sensors"><span class="text-middle">Sensors</span></a>
+                          <li><a href="/solutions/networking"><span class="text-middle">ネットワーク</span></a>
                           </li>
-                          <li><a href="/solutions/electronics"><span class="text-middle">Electronics</span></a>
-                          </li>
-                          <li><a href="/solutions/networking"><span class="text-middle">Networking</span></a>
+                          <li><a href="/solutions/entertainment"><span class="text-middle">エンターテイメント</span></a>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="/plans"><span>PLANS</span></a>
+                      <li><a href="/plans"><span>プラン</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="/plans/basic"><span class="text-middle">Basic</span></a>
+                          <li><a href="/plans/basic"><span class="text-middle">ベーシック</span></a>
                           </li>
-                          <li><a href="/plans/lite"><span class="text-middle">Lite</span></a>
+                          <li><a href="/plans/lite"><span class="text-middle">ライト</span></a>
                           </li>
-                          <li><a href="/plans/standard"><span class="text-middle">Standard</span></a>
+                          <li><a href="/plans/standard"><span class="text-middle">スタンダード</span></a>
                           </li>
-                          <li><a href="/plans/advanced"><span class="text-middle">Advanced</span></a>
+                          <li><a href="/plans/advanced"><span class="text-middle">アドバンス</span></a>
                           </li>
-                          <li><a href="/plans/elite"><span class="text-middle">Elite</span></a>
+                          <li><a href="/plans/elite"><span class="text-middle">エリート</span></a>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="/services"><span>SERVICES</span></a>
+                      <li><a href="/services"><span>サービス</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="/services/consultancy"><span class="text-middle">Consultancy</span></a>
+                          <li><a href="/services/consultancy"><span class="text-middle">コンサルタント</span></a>
                           </li>
-                          <li><a href="/services/designing"><span class="text-middle">Designing</span></a>
+                          <li><a href="/services/designing"><span class="text-middle">デザイン</span></a>
                           </li>
-                          <li><a href="/services/training_and_skills"><span class="text-middle">Training&Skills</span></a>
+                          <li><a href="/services/training_and_skills"><span class="text-middle">トレーニング＆スキル</span></a>
                           </li>
-                          <li><a href="/services/maintainance"><span class="text-middle">Maintainance</span></a>
+                          <li><a href="/services/maintainance"><span class="text-middle">メンテナンス</span></a>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="/shop"><span>SHOP</span></a>
+                      <li><a href="/shop"><span>ショップ</span></a>
                       </li>
-                      <li><a href="/blog"><span>BLOG</span></a>
+                      <li><a href="/blog"><span>ブログ</span></a>
                       </li>
                     </ul>
                   </div>
