@@ -8,17 +8,17 @@ class ServicesController extends Controller
     {   
         switch ($service_category) {
             case "consultancy":
-                $output = "consultancy";
-                return view('services.content_boxes')->with('service_category',$output); 
+                $output = "コンサルタント";
+                return view('services.consultancy')->with('service_category',$output); 
             case "designing":
-                $output = "designing";
-                return view('services.content_boxes')->with('service_category',$output); 
+                $output = "デザイン";
+                return view('services.designing')->with('service_category',$output); 
             case "training_and_skills":
-                $output = "training & skills";
-                return view('services.content_boxes')->with('service_category',$output); 
+                $output = "トレーニング＆スキル";
+                return view('services.training_and_skills')->with('service_category',$output); 
             case "maintainance":
-                $output = "maintainance";
-                return view('services.content_boxes')->with('service_category',$output);                
+                $output = "メンテナンス";
+                return view('services.maintainance')->with('service_category',$output);                
         }
     }    
 }

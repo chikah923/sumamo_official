@@ -18,12 +18,12 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-folder-outline icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Solutions</span></h2>
+              <h2><span class="big">ソリューション</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="/">Home</a></li>
-                <li><a href="/solutions">Solutions</a></li>
+                <li><a href="/">ホーム</a></li>
+                <li><a href="/solutions">ソリューション</a></li>
               </ul>
             </div>
           </div>
@@ -133,7 +133,7 @@
             </div>
           </div>
         </section>
-        <section class="shadow-drop-ambient">
+        <!-- <section class="shadow-drop-ambient">
           <div class="bg-overlay-white">
             <div class="shell section-66">
               <div class="range">
@@ -144,7 +144,6 @@
               <div class="range range-xs-middle range-xs-center offset-top-20">
                 <div class="cell-lg-4 text-lg-left">
                   <p>Among our clients there are many world-renowned industry leaders. Their websites are modern looking and reliable – thanks to us.</p>
-                  <!-- Custom Pagination-->
                   <div class="owl-custom-navigation owl-customer-navigation offset-top-14">
                     <div class="owl-nav">
                       <div class="owl-prev mdi mdi-chevron-left" data-owl-prev></div>
@@ -153,111 +152,13 @@
                   </div>
                 </div>
                 <div class="cell-lg-8 offset-top-41 offset-lg-top-0">
-                          <!-- Customer Slider-->
                           <div class="owl-carousel owl-carousel-testimonials-2" data-mouse-drag="false" data-items="1" data-xs-items="2" data-sm-items="3" data-md-items="4" data-nav-custom=".owl-custom-navigation" data-dots="false" data-nav="false"><a href="clients.html"><img class="img-semi-transparent" src="{{ asset('/images/clients/client-01-169x68.png') }}" width="169" height="68" alt=""></a><a href="clients.html"><img class="img-semi-transparent" src="{{ asset('/images/clients/client-02-126x68.png') }}" width="126" height="68" alt=""></a><a href="clients.html"><img class="img-semi-transparent" src="{{ asset('/images/clients/client-03-126x100.png') }}" width="126" height="100" alt=""></a><a href="clients.html"><img class="img-semi-transparent" src="{{ asset('/images/clients/client-04-95x101.png') }}" width="95" height="101" alt=""></a><a href="clients.html"><img class="img-semi-transparent" src="{{ asset('/images/clients/client-05-149x102.png') }}" width="149" height="102" alt=""></a><a href="clients.html"><img class="img-semi-transparent" src="{{ asset('/images/clients/client-06-141x88.png') }}" width="141" height="88" alt=""></a>
                           </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- Choose Your Plan-->
-        <section class="section-98 section-sm-110">
-          <div class="shell">
-            <h1>Choose Your Plan</h1>
-            <div class="divider bg-mantis"></div>
-            <div class="range range-xs-bottom offset-top-41 range-sm-center">
-              <div class="cell-md-3">
-                        <!-- Planning Box type 4-->
-                        <div class="box-planning box-planning-type-4">
-                          <div class="box-planning-header context-dark bg-mantis">
-                            <div class="box-planning-label">
-                              <p class="big text-bold">Most Popular</p>
-                            </div>
-                            <h3>Free</h3>
-                            <p class="h2 plan-price"><sup class="big">$</sup>59<sub class="text-white">/month</sub>
-                            </p>
-                          </div>
-                          <div class="box-planning-body">
-                            <ul class="list-separated list-unstyled">
-                              <li><span class="text-bold">1GB</span><span class="text-dark">Space amount</span></li>
-                              <li><span class="text-bold">5</span><span class="text-dark">users</span></li>
-                              <li><span class="text-bold">5GB</span><span class="text-dark">Bandwidth</span></li>
-                              <li><span class="text-dark">No Support</span></li>
-                              <li><span class="text-bold">1</span><span class="text-dark">Databases</span></li>
-                            </ul><a class="btn btn-block btn-default btn-rect" href="register.html">Sign up</a>
-                          </div>
-                        </div>
-              </div>
-              <div class="cell-md-3">
-                        <!-- Planning Box type 4-->
-                        <div class="box-planning box-planning-type-4">
-                          <div class="box-planning-header context-dark bg-malibu">
-                            <div class="box-planning-label">
-                              <p class="big text-bold">Most Popular</p>
-                            </div>
-                            <h3>Starter</h3>
-                            <p class="h2 plan-price"><sup class="big">$</sup>59<sub class="text-white">/month</sub>
-                            </p>
-                          </div>
-                          <div class="box-planning-body">
-                            <ul class="list-separated list-unstyled">
-                              <li><span class="text-bold">5GB</span><span class="text-dark">Space amount</span></li>
-                              <li><span class="text-bold">20</span><span class="text-dark">users</span></li>
-                              <li><span class="text-bold">10GB</span><span class="text-dark">Bandwidth</span></li>
-                              <li><span class="text-dark">No Support</span></li>
-                              <li><span class="text-bold">1</span><span class="text-dark">Databases</span></li>
-                            </ul><a class="btn btn-block btn-default btn-rect" href="register.html">Sign up</a>
-                          </div>
-                        </div>
-              </div>
-              <div class="cell-md-3">
-                        <!-- Planning Box type 4-->
-                        <div class="box-planning box-planning-type-4 active">
-                          <div class="box-planning-header context-dark bg-saffron">
-                            <div class="box-planning-label">
-                              <p class="big text-bold">Most Popular</p>
-                            </div>
-                            <h3>Business</h3>
-                            <p class="h2 plan-price"><sup class="big">$</sup>59<sub class="text-white">/month</sub>
-                            </p>
-                          </div>
-                          <div class="box-planning-body">
-                            <ul class="list-separated list-unstyled">
-                              <li><span class="text-bold">10GB</span><span class="text-dark">Space amount</span></li>
-                              <li><span class="text-bold">Unlimited</span><span class="text-dark">users</span></li>
-                              <li><span class="text-bold">30GB</span><span class="text-dark">Bandwidth</span></li>
-                              <li><span class="text-dark">Free Support</span></li>
-                              <li><span class="text-bold">20</span><span class="text-dark">Databases</span></li>
-                            </ul><a class="btn btn-block btn-default btn-rect" href="register.html">Sign up</a>
-                          </div>
-                        </div>
-              </div>
-              <div class="cell-md-3">
-                        <!-- Planning Box type 4-->
-                        <div class="box-planning box-planning-type-4">
-                          <div class="box-planning-header context-dark bg-red">
-                            <div class="box-planning-label">
-                              <p class="big text-bold">Most Popular</p>
-                            </div>
-                            <h3>Ultimate</h3>
-                            <p class="h2 plan-price"><sup class="big">$</sup>59<sub class="text-white">/month</sub>
-                            </p>
-                          </div>
-                          <div class="box-planning-body">
-                            <ul class="list-separated list-unstyled">
-                              <li><span class="text-bold">100GB</span><span class="text-dark">Space amount</span></li>
-                              <li><span class="text-bold">Unlimited</span><span class="text-dark">users</span></li>
-                              <li><span class="text-bold">60GB</span><span class="text-dark">Bandwidth</span></li>
-                              <li><span class="text-dark">Free support</span></li>
-                              <li><span class="text-bold">Unlimited</span><span class="text-dark">Databases</span></li>
-                            </ul><a class="btn btn-block btn-default btn-rect" href="register.html">Sign up</a>
-                          </div>
-                        </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </section> -->
         <!-- Buy Now-->
         <section>
                   <!-- Call to action type 2-->

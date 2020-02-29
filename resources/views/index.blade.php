@@ -1,4 +1,4 @@
-@extends('layout.common')
+@extends('layout.home')
 
 @include('layout.head')
 
@@ -14,7 +14,7 @@
       <!-- Page Head-->
       <header class="page-head slider-menu-position">
 @endsection
-@include('layout.navbar_light')
+@include('layout.navbar')
 
 @section('top')
         <!--Swiper-->
