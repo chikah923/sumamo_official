@@ -66,7 +66,7 @@
                     <div class="cell-sm-9 cell-lg-12">
                       <div class="range range-xs-center">
                         <div class="cell-lg-5">
-                          <h6 class="text-bold text-malibu">ホームシアター</h6>
+                          <h6 id="theatre" class="text-bold text-malibu">ホームシアター</h6>
                           <p>映画館で映画を見ているかのような感覚を自宅で体験しましょう。</p>
                           <li>タッチパネルで「シアター」モードを選択するか、音声コマンドで「シアターモードにして」と言うことで、スクリーンが降り、ブラインドが閉じ、音響システムを起動して部屋の照明の照度を下げます。</li>
                           <li>数多くのスピーカーを使用して、多次元音響環境を作り出すことにより、映画館にいるかのような臨場感を体感できます。</li>

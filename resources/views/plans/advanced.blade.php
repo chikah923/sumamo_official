@@ -19,7 +19,7 @@
         <!-- Carousel content box-->
         <section>
           <div class="shell">
-            <h1>ルーティンワークはシステムに任せましょう</h1>
+            <h1>エンターテイメントも、屋外もスマートに</h1>
             <hr class="divider bg-mantis">
             <div class="range range-sm-center offset-top-66">
               <!-- Simple quote Slider-->
@@ -37,10 +37,7 @@
               </div>
               <div class="cell-sm-8 cell-md-4 text-sm-left offset-top-34 offset-md-top-0">
                 <h3>{{ $plan_category }}</h3>
-                <p>SUMAMOの提供するスマートシステムの特徴は、照明や空調、ブラインド、センサーからTVまでの構成要素を全て繋げてしまうことです。</p>
-                <div class="offset-top-20">
-                  <p>こうすることによって、それぞれの構成要素どうしが会話できるようになります。例えば空調は、室内の温度が上がったという情報を温度センサーから教えてもらうことができ、それに合わせて設定温度を下げて過ごしやすい室温になるよう運転を切り替えることができます。これにより、家やオフィスの日々のルーティンワークをシステムに任せることが可能になります。</p>
-                </div>
+                <p>最新のスマートシステムのセキュリティ機能も導入された場合、または屋内だけでなく屋外でも使用されたい場合や、音楽もコントロールしたい場合におすすめなのがアドバンスプランです。</p>
                 <div class="owl-custom-navigation owl-customer-navigation offset-top-24">
                   <div class="owl-nav">
                     <div class="owl-prev mdi mdi-chevron-left" data-owl-prev></div>
@@ -56,6 +53,18 @@
             <hr class="hr hr-gradient">
           </div>
         </section>
+        <!-- Call to action type 2-->
+        <section class="section-66 bg-blue-gray context-dark">
+          <div class="shell">
+            <div class="range range-xs-middle range-condensed">
+              <div class="text-center text-md-center">
+                <h5>
+                アドバンスプランでは、照明やブラインドなど日常不可欠な機能のみならず、セキュリティ機能やガス漏れセンサ、水漏れセンサの設備が追加され、更に建物全体で音楽をコントロールすることが可能になります。更に、屋内だけではなく、ガレージ、屋根、スイミングプール、庭などの屋外の設備もコントロールできるようになります。もちろん、屋外で音楽をコントロールすることも可能です。
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- Light parallax content box-->
         <section>
           <div class="parallax-container" data-parallax-img="{{ asset('/images/backgrounds/background-05-1920x960.jpg') }}">
@@ -66,38 +75,23 @@
                     <div class="cell-sm-9 cell-lg-12">
                       <div class="range range-xs-center">
                         <div class="cell-lg-5">
-                          <h6 class="text-bold text-malibu">屋内のオートメーション</h6>
-                          <p>
-                          天候や季節、週末などお好みのスケジュールに合わせて照明、ブラインド、空調などを自動で最適化することができます。
-                          </p>
-                          <li>室温や湿度に合わせて、空調を自動で最適化</li>
-                          <li>特定の時間に、事前に設定しておいた設定値に照明、ブラインド、空調などを動作</li>
-                          <li>照明、ブラインド、空調などがどんな状態になっているかは、スマートフォンやスマートウォッチからいつでも確認可能</li>
+                          <h6 class="text-bold text-malibu">ソリューション</h6>
+                          <p>ベーシックプラン、ライトプラン、スタンダードプランの内容に以下が追加されます。</p>
+                          <li>堅牢な有線接続でインストール</li>
+                          <li>スマートホームアプリからワンタッチで、建物全体、あるいは特定の部屋で音楽を流すことが可能</li>
+                          <li>セキュリティ機能も含まれます。セキュリティ機能について詳しくは<a href="/solutions/security">こちら</a></li>
+                          <li>水漏れセンサー、ガス漏れセンサーを設置し、異常の際はスマートフォンに即時通知送信</li>
                         </div>
                         <div class="cell-lg-5">
-                          <h6 class="text-bold text-malibu">屋外のオートメーション</h6>
-                          <p>
-                          屋内だけでなく、屋外のプールやスプリンクラー、ガレージドアなどの屋外の設備もオートメーションに任せましょう。
-                          </p>
-                          <li>指定した時間にプールに水を入れる</li>
-                          <li>庭の地中に湿度を測るセンサを設置して、地面が乾いているときにスプリンクラーを作動させる</li>
+                          <h6 class="text-bold text-malibu">特徴</h6>
+                          <li>スマートホーム機能の殆ど全てをご利用可能</li>
+                          <li>将来的に音声操作機能を追加可能</li>
+                          <li>インストール後3年以内にスマートシステムを導入する場合、割引あり</li>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Call to action type 2-->
-        <section class="section-66 bg-blue-gray context-dark">
-          <div class="shell">
-            <div class="range range-xs-middle range-condensed">
-              <div class="text-center text-md-center">
-                <h4>
-                  
-                </h4>
               </div>
             </div>
           </div>

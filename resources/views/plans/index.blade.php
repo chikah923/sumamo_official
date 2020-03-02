@@ -41,7 +41,11 @@
       <main class="page-content section-98 section-lg-110">
         <!-- Section Plans Type 1-->
         <div class="shell shell-wide">
-          <h1>Plans Type 1</h1>
+          <h1>多くの選択肢と統一された品質</h1>
+          <p>建物の一部でも、建物全体であっても、SUMAMOの提供するスマートシステムはライフスタイルや個人のニーズに合うものに設計することができます。 
+            将来的にプランを変更する場合も、新たに壁に穴を開けたりケーブルを追加したりすることなく修正が可能になります。
+            以下の利用可能なプランの中から、最適なものをご選択ください。もちろん、これらのプランに留まらず、ご要望の詳細をお伺いしてカスタマイズプランを提供させて頂くことも可能です。
+　        </p>
           <div class="divider bg-mantis"></div>
           <div class="range range-condensed range-md-center">
             <div class="cell-xs-8 cell-xs-preffix-2 cell-md-3 cell-md-preffix-0 cell-xl-2">

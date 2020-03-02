@@ -19,7 +19,7 @@
         <!-- Carousel content box-->
         <section>
           <div class="shell">
-            <h1>ルーティンワークはシステムに任せましょう</h1>
+            <h1>将来的にスマートホームを導入されたい場合</h1>
             <hr class="divider bg-mantis">
             <div class="range range-sm-center offset-top-66">
               <!-- Simple quote Slider-->
@@ -37,10 +37,7 @@
               </div>
               <div class="cell-sm-8 cell-md-4 text-sm-left offset-top-34 offset-md-top-0">
                 <h3>{{ $plan_category }}</h3>
-                <p>SUMAMOの提供するスマートシステムの特徴は、照明や空調、ブラインド、センサーからTVまでの構成要素を全て繋げてしまうことです。</p>
-                <div class="offset-top-20">
-                  <p>こうすることによって、それぞれの構成要素どうしが会話できるようになります。例えば空調は、室内の温度が上がったという情報を温度センサーから教えてもらうことができ、それに合わせて設定温度を下げて過ごしやすい室温になるよう運転を切り替えることができます。これにより、家やオフィスの日々のルーティンワークをシステムに任せることが可能になります。</p>
-                </div>
+                <p>新しく施設を建設されるご予定で、スマートシステムを将来的に導入されたいとお考えでも、今すぐの導入が難しい場合や、建築後にスマートシステムの仕様を決めたい、という場合の選択肢です。建築時に、将来的にスマートシステムを導入するための基礎となる電気工事をさせて頂きます。有線接続のスマートシステムとなりますので、商業施設やホテルなどの大型施設にも適しています。</p>
                 <div class="owl-custom-navigation owl-customer-navigation offset-top-24">
                   <div class="owl-nav">
                     <div class="owl-prev mdi mdi-chevron-left" data-owl-prev></div>
@@ -56,6 +53,21 @@
             <hr class="hr hr-gradient">
           </div>
         </section>
+        <!-- Call to action type 2-->
+        <section class="section-66 bg-blue-gray context-dark">
+          <div class="shell">
+            <div class="range range-xs-middle range-condensed">
+              <div class="text-center text-md-center">
+                <h5>
+                家やオフィスなどが建築される段階よりも、実際に竣工が終わって建物を使い慣れてからスマートシステムを導入したい場合もあるかと思います。
+                建築の段階でスマートシステムの基礎配線を施すことで、竣工後いつでもお好きなスマートホーム機能ややタッチパネルのインストールを行うことができるようになります。
+                <br />
+                例) セキュリティカメラ、センサー、ブラインド操作用のケーブルを配線しておき、竣工後にセンサー、セキュリティカメラを1台ずつ足していくなど徐々にスマートシステムを導入する
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- Light parallax content box-->
         <section>
           <div class="parallax-container" data-parallax-img="{{ asset('/images/backgrounds/background-05-1920x960.jpg') }}">
@@ -66,38 +78,22 @@
                     <div class="cell-sm-9 cell-lg-12">
                       <div class="range range-xs-center">
                         <div class="cell-lg-5">
-                          <h6 class="text-bold text-malibu">屋内のオートメーション</h6>
-                          <p>
-                          天候や季節、週末などお好みのスケジュールに合わせて照明、ブラインド、空調などを自動で最適化することができます。
-                          </p>
-                          <li>室温や湿度に合わせて、空調を自動で最適化</li>
-                          <li>特定の時間に、事前に設定しておいた設定値に照明、ブラインド、空調などを動作</li>
-                          <li>照明、ブラインド、空調などがどんな状態になっているかは、スマートフォンやスマートウォッチからいつでも確認可能</li>
+                          <h6 class="text-bold text-malibu">ソリューション</h6>
+                          <li>堅牢な有線接続でインストール</li>
+                          <li>施設の構造や内部ネットワーク構造に最適なスマートシステムをご提案</li>
+                          <li>永続的なシステムメンテナンス</li>
+                          <li>スマートシステムについてのコンサルティングは竣工前〜竣工後、スマートシステム導入〜導入後を通して全て無料</li>
+                          <li>弊社の提供するスマートシステムに関する講座に低価格でご参加が可能、またオンライン教材を無料で閲覧可能</li>
                         </div>
                         <div class="cell-lg-5">
-                          <h6 class="text-bold text-malibu">屋外のオートメーション</h6>
-                          <p>
-                          屋内だけでなく、屋外のプールやスプリンクラー、ガレージドアなどの屋外の設備もオートメーションに任せましょう。
-                          </p>
-                          <li>指定した時間にプールに水を入れる</li>
-                          <li>庭の地中に湿度を測るセンサを設置して、地面が乾いているときにスプリンクラーを作動させる</li>
+                          <h6 class="text-bold text-malibu">特徴</h6>
+                          <li>低価格でインストール可能</li>
+                          <li>インストール後1年以内にスマートシステムを導入する場合、割引あり</li>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Call to action type 2-->
-        <section class="section-66 bg-blue-gray context-dark">
-          <div class="shell">
-            <div class="range range-xs-middle range-condensed">
-              <div class="text-center text-md-center">
-                <h4>
-                  
-                </h4>
               </div>
             </div>
           </div>
